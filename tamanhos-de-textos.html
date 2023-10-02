@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>tamanhos de texto</title>
+		<style type="text/css">
+			.texto{
+				/*
+				px->tamanho fixo
+				% ->tamanho relativo
+				em ->tamanho relativo ao container pai--- 1em equivale ao tamanho relativo do container pai, portanto, 2em equivale ao dobro do contaneir pai.(container a qual está inserida)
+				*/
+				font-size: 10px;
+			}
+			div{
+				font-size: 60px;
+			}
+			.texto2{
+				font-size: 1em;
+				padding: 15px; /*serve para dar espaçamentos ao redor do texto*/
+			}
+
+
+
+		</style>
+	</head>
+	<body> <!-- o tamanho padrão dos textos é 16px;-->
+		<div>
+			<p class="texto">conteúdo</p>
+			<p class="texto2">conteúdo</p>
+		</div>
+
+	</body>
+</html>
